@@ -22,7 +22,8 @@ namespace User_Registration
             Console.WriteLine("Enter Mobile no: ");
             string no = Console.ReadLine();
 
-            Regex exp5 = new Regex(@"\b[^\s].[^\s]{8,}}");
+            //Regex exp5 = new Regex(@"\b[^\s].[^\s]{8,}}");
+            Regex exp5 = new Regex(@"\b[^\s](?=.*[A-Z]).[^\s]{6,}");
             Console.WriteLine("Enter Password: ");
             string pass = Console.ReadLine();
 
