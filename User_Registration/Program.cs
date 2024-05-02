@@ -24,7 +24,8 @@ namespace User_Registration
 
             //Regex exp5 = new Regex(@"\b[^\s].[^\s]{8,}}");
             //Regex exp5 = new Regex(@"\b[^\s](?=.*[A-Z]).[^\s]{6,}");
-            Regex exp5 = new Regex(@"\b[^\s](?=.+[A-Z])(?=.+[0-9]).[^\s]{6,}\b");
+            //Regex exp5 = new Regex(@"\b[^\s](?=.+[A-Z])(?=.+[0-9]).[^\s]{6,}\b");
+            Regex exp5 = new Regex(@"\b[^\s](?=.*[A-Z])(?=.*[*+=_|<>,#?!@$%^&-])(?=.*[0-9]).[^\s]{5,}\b");
             Console.WriteLine("Enter Password: ");
             string pass = Console.ReadLine();
 
