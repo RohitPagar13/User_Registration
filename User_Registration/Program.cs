@@ -43,6 +43,10 @@ namespace User_Registration
             {
                 Console.WriteLine("Enter valid mobile no");
             }
+            else if (!exp5.IsMatch(pass))
+            {
+                Console.WriteLine("Enter valid password");
+            }
             else
             {
                 User user = new User(Fname, Lname);
