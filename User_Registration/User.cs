@@ -8,11 +8,11 @@ namespace User_Registration
 {
     internal class User
     {
-        public string FName { get; }
+        public string fName { get; set; }
 
         public User(string fName)
         {
-            this.FName = fName;
+            this.fName = fName;
         }
 
     }
