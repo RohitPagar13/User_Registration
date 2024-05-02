@@ -16,6 +16,15 @@ namespace User_Registration
             Console.WriteLine("Enter Last Name: ");
             string Lname = Console.ReadLine();
 
+            Regex exp3 = new Regex(@"\b\w+\.?\w+?\@[a-z]+\.[a-z]+((?:.)[a-z]{1,})*");
+
+            Console.WriteLine("Enter EMail: ");
+            string email = Console.ReadLine().ToLower();
+
+            Regex exp4 = new Regex(@"\b((\d{0,3})\s)?\d{6,10}");
+
+            Console.WriteLine("Enter Mobile no: ");
+            string no = Console.ReadLine();
 
             if (!exp1.IsMatch(Fname))
             {
@@ -25,6 +34,14 @@ namespace User_Registration
             else if (!exp2.IsMatch(Lname))
             {
                 Console.WriteLine("Enter valid user Last Name");
+            }
+            else if (!exp3.IsMatch(email))
+            {
+                Console.WriteLine("Enter valid user Email");
+            }
+            else if (!exp4.IsMatch(no))
+            {
+                Console.WriteLine("Enter valid mobile no");
             }
             else
             {
