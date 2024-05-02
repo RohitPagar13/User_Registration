@@ -11,14 +11,25 @@ namespace User_Registration
             Console.WriteLine("Enter First Name: ");
             string Fname = Console.ReadLine();
 
-            if (exp1.IsMatch(Fname))
+            Regex exp2 = new Regex(@"\b[A-Z]+\w{2,}");
+
+            Console.WriteLine("Enter Last Name: ");
+            string Lname = Console.ReadLine();
+
+
+            if (!exp1.IsMatch(Fname))
             {
-                User user = new User(Fname);
-                Console.WriteLine("User Created");
+                Console.WriteLine("Enter valid user First Name");
+                
+            }
+            else if (!exp2.IsMatch(Lname))
+            {
+                Console.WriteLine("Enter valid user Last Name");
             }
             else
             {
-                Console.WriteLine("Enter valid user First Name");
+                User user = new User(Fname, Lname);
+                Console.WriteLine("User Created");
             }
         }
         static void Main(string[] args)
