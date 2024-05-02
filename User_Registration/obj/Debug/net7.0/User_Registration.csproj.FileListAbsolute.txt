@@ -1,0 +1,14 @@
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\obj\Debug\net7.0\User_Registration.GeneratedMSBuildEditorConfig.editorconfig
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\obj\Debug\net7.0\User_Registration.AssemblyInfoInputs.cache
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\obj\Debug\net7.0\User_Registration.AssemblyInfo.cs
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\obj\Debug\net7.0\User_Registration.csproj.CoreCompileInputs.cache
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\bin\Debug\net7.0\User_Registration.exe
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\bin\Debug\net7.0\User_Registration.deps.json
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\bin\Debug\net7.0\User_Registration.runtimeconfig.json
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\bin\Debug\net7.0\User_Registration.dll
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\bin\Debug\net7.0\User_Registration.pdb
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\obj\Debug\net7.0\User_Registration.dll
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\obj\Debug\net7.0\refint\User_Registration.dll
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\obj\Debug\net7.0\User_Registration.pdb
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\obj\Debug\net7.0\User_Registration.genruntimeconfig.cache
+E:\BridgeLabz\Assignments\User_Registration\User_Registration\obj\Debug\net7.0\ref\User_Registration.dll
